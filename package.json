@@ -1,0 +1,15 @@
+{
+  "name": "property-based-testing",
+  "version": "1.0.0",
+  "description": "A javascript library to do a simple property based testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsverify": "git+https://github.com/venkat-gan/jsVerify.git",
+    "ramda": "^0.22.1"
+  }
+}
