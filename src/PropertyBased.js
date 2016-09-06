@@ -175,17 +175,7 @@ const exclude_nth_index = (n,s) =>{
     }
 }
 
-module.exports = {
-    precondition : precondition,
-    generate : generate,
-    exec : exec,
-    postcondition : postcondition,
-    cmd_seq_helper : cmd_seq_helper,
+module.exports = {    
     cmd_seq : cmd_seq,
-    valid_sequence : valid_sequence,
-    reduce : reduce,
-    shrink_sequence : shrink_sequence,
-    remove_seq : remove_seq,
     shrinkOp : shrinkOp,
-    exclude_nth_index : exclude_nth_index
 }

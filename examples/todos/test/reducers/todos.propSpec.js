@@ -21,7 +21,6 @@ const addCommand = {
     },
 
     postcondition: (curren_state, cmd) => {
-    		console.log("POST___")
         return true
     }
 }
