@@ -4,6 +4,14 @@
 
 Do a property based testing in Redux reducers.
 
+
+# Dependencies
+
+1. [ramda](https://www.npmjs.com/package/ramda)
+2. [lazy-seq](https://www.npmjs.com/package/lazy-seq)
+3. [jsverify](https://www.npmjs.com/package/jsverify)
+
+
 # License
 
 MIT License
