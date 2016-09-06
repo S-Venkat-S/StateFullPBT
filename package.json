@@ -4,11 +4,12 @@
   "description": "A javascript library to do a simple property based testing.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV='test' && jest __test__/"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jest": "^15.1.1",
     "jsverify": "git+https://github.com/venkat-gan/jsVerify.git",
     "ramda": "^0.22.1"
   }
