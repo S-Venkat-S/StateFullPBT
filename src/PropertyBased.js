@@ -150,9 +150,9 @@ const shrink_sequence = (cmd_seq, state_seq, commands, initialState) => {
 
 //remove_seq :: [a]->[a]
 const remove_seq = (s) => {
-    var s1 = s;
+    var s1 = s; // TODO : Is this line really needed.
     var seq = s.map((current_value, index) => {
-        let seq = lazyseq.fromArray(s1);
+        let seq = lazyseq.fromArray(s1); // TODO : Is this line really needed.
         return exclude_nth_index(index, s);
     })
     return seq;
@@ -185,7 +185,8 @@ if (process.env.NODE_ENV === "test") {
     module.exports = {
         cmd_seq: cmd_seq,
         shrinkOp: shrinkOp,
-        exclude_nth_index: exclude_nth_index
+        exclude_nth_index: exclude_nth_index,
+        remove_seq: remove_seq
     }
 }
 else {
