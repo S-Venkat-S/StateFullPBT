@@ -1,6 +1,6 @@
 # StateFullPBT  -  State Full Property Based Testing  
 
-[![Build Status](https://travis-ci.org/vimalceg/webrtc.svg?branch=master)](https://travis-ci.org/vimalceg/webrtc)
+[![Build Status](https://travis-ci.org/venkat-gan/StateFullPBT?branch=master)](https://travis-ci.orgvenkat-gan/StateFullPBT)
 
 Do a property based testing in Redux reducers.
 
