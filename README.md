@@ -1,6 +1,6 @@
 # StateFullPBT  -  State Full Property Based Testing  
 
-[![Build Status](https://travis-ci.org/venkat-gan/property-based-testing?branch=master)](https://travis-ci.org/venkat-gan/property-based-testing)
+[![Build Status](https://travis-ci.org/venkat-gan/property-based-testing.svg?branch=master)](https://travis-ci.org/venkat-gan/property-based-testing)
 
 Do a property based testing in Redux reducers.
 
